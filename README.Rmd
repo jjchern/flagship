@@ -1,0 +1,26 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# About `flagship`
+
+- Tuition and fees data from the College Broad for state flagship universities, 2007-2016.
+- Source: https://trends.collegeboard.org/college-pricing
+
+## Installation
+
+```R
+# install.packages("devtools")
+devtools::install_github("jjchern/flagship")
+```
+
