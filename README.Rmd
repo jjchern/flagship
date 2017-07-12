@@ -8,19 +8,31 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "README-"
+  fig.path = "README-",
+  warning = FALSE
 )
 ```
 
 # About `flagship`
 
+[![Travis-CI Build Status](https://travis-ci.org/jjchern/flagship.svg?branch=master)](https://travis-ci.org/jjchern/flagship)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jjchern/flagship?branch=master&svg=true)](https://ci.appveyor.com/project/jjchern/flagship)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/flagship)](https://cran.r-project.org/package=flagship)
+
 - Tuition and fees data from the College Broad for state flagship universities, 2007-2016.
 - Source: https://trends.collegeboard.org/college-pricing
 
-## Installation
+# Installation
 
 ```R
 # install.packages("devtools")
 devtools::install_github("jjchern/flagship")
+```
+# Usage
+
+```{r}
+# Load tibble for nice display
+library(tibble)
+flagship::flagship
 ```
 
