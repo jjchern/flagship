@@ -3,7 +3,7 @@
 About `flagship`
 ================
 
-[![Travis-CI Build Status](https://travis-ci.org/jjchern/flagship.svg?branch=master)](https://travis-ci.org/jjchern/flagship) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jjchern/flagship?branch=master&svg=true)](https://ci.appveyor.com/project/jjchern/flagship) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/flagship)](https://cran.r-project.org/package=flagship)
+[![Travis-CI Build Status](https://travis-ci.org/jjchern/flagship.svg?branch=master)](https://travis-ci.org/jjchern/flagship) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jjchern/flagship?branch=master&svg=true)](https://ci.appveyor.com/project/jjchern/flagship)
 
 -   Tuition and fees data from the College Broad for state flagship universities, 2007-2016.
 -   Source: <https://trends.collegeboard.org/college-pricing>
