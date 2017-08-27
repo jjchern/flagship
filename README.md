@@ -23,20 +23,21 @@ Usage
 # Load tibble for nice display
 library(tibble)
 flagship::flagship
-#> # A tibble: 500 x 8
-#>                              univ state school_year instatetf_2016_dollars
-#>                             <chr> <chr>       <chr>                  <dbl>
-#>  1 University of Alaska Fairbanks    AK     2007-08               5194.211
-#>  2 University of Alaska Fairbanks    AK     2008-09               5281.972
-#>  3 University of Alaska Fairbanks    AK     2009-10               5735.943
-#>  4 University of Alaska Fairbanks    AK     2010-11               5867.958
-#>  5 University of Alaska Fairbanks    AK     2011-12               5933.038
-#>  6 University of Alaska Fairbanks    AK     2012-13               6195.160
-#>  7 University of Alaska Fairbanks    AK     2013-14               6168.745
-#>  8 University of Alaska Fairbanks    AK     2014-15               6244.196
-#>  9 University of Alaska Fairbanks    AK     2015-16               6860.820
-#> 10 University of Alaska Fairbanks    AK     2016-17               7184.000
-#> # ... with 490 more rows, and 4 more variables:
-#> #   instatetf_current_dollars <dbl>, outstatetf_2016_dollars <dbl>,
-#> #   outstatetf_current_dollars <dbl>, enrollment <dbl>
+#> # A tibble: 500 x 11
+#>                     univ unitid    opeid opeid6 state school_year
+#>                    <chr>  <chr>    <chr>  <chr> <chr>       <chr>
+#>  1 University of Alabama 100751 00105100 001051    AL     2007-08
+#>  2 University of Alabama 100751 00105100 001051    AL     2008-09
+#>  3 University of Alabama 100751 00105100 001051    AL     2009-10
+#>  4 University of Alabama 100751 00105100 001051    AL     2010-11
+#>  5 University of Alabama 100751 00105100 001051    AL     2011-12
+#>  6 University of Alabama 100751 00105100 001051    AL     2012-13
+#>  7 University of Alabama 100751 00105100 001051    AL     2013-14
+#>  8 University of Alabama 100751 00105100 001051    AL     2014-15
+#>  9 University of Alabama 100751 00105100 001051    AL     2015-16
+#> 10 University of Alabama 100751 00105100 001051    AL     2016-17
+#> # ... with 490 more rows, and 5 more variables:
+#> #   instatetf_2016_dollars <dbl>, instatetf_current_dollars <dbl>,
+#> #   outstatetf_2016_dollars <dbl>, outstatetf_current_dollars <dbl>,
+#> #   enrollment <dbl>
 ```
