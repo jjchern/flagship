@@ -13,7 +13,7 @@ Installation
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("jjchern/flagship")
+devtools::install_github("jjchern/flagship@v1.0.0")
 ```
 
 Usage
